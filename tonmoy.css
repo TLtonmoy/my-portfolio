@@ -1,0 +1,54 @@
+.boss{
+   
+    background-color:white ;
+}
+body{
+font-family: 'Open Sans', sans-serif;}
+nav{
+    display: flex ;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 200px;
+    background-image: url("../mod-5/img/bck.png");
+}
+.tonmoy-1{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 800;
+}
+.color{
+    color: #FD6E0A;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 80px;
+}
+nav a
+{ text-decoration:none;
+  color: #474747; }
+
+.but{ border-radius: 5px;
+    background-color:#FD6E0A;
+  color:#ffff; font-size: 20px; font-weight: 700;
+  border: 0; padding: 18px 35px ;
+  }
+  .banner{
+    padding: 30px 30px 0 150px ;
+    display: flex; 
+    align-items: center;
+  }
+  .banner .t{
+    width: 500px ;
+  }
+
+  .about{
+    padding: 130px; border-radius: 10px;
+    background: #f0ded2; margin: 130px 0;
+  }
+  main{
+    max-width: 1140px;
+   margin: 0 auto;
+  }
