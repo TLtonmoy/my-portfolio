@@ -1,6 +1,11 @@
+
 .boss{
    
-    background-color:white ;
+    background-color:white ; 
+    background-image: url('img/header_bg.png'), url('img/developer.png');
+    background-repeat: no-repeat; 
+    background-position: right bottom , top left;
+    background-size: auto, 700px normal ;
 }
 body{
 font-family: 'Open Sans', sans-serif;}
@@ -9,8 +14,7 @@ nav{
     align-items: center;
     justify-content:space-between;
     margin: 0 200px;
-    background-image: url("../mod-5/img/bck.png");
-}
+    background-image: url("../mod-5/img/bck.png")}
 .tonmoy-1{
     color: #181818;
     font-size: 20px;
@@ -41,7 +45,9 @@ nav a
     align-items: center;
   }
   .banner .t{
-    width: 500px ;
+   
+    width: 584px;
+height: 676px;
   }
 
   .about{
